@@ -1,9 +1,10 @@
 # Created by .ignore support plugin (hsz.mobi)
 ### Node template
-# Logs
+# Any Log files
 logs
 *.log
 npm-debug.log*
+
 
 # Runtime data
 pids
@@ -26,10 +27,20 @@ coverage
 build/Release
 
 # Dependency directory
+# npm packages
 # https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
 node_modules
 
 
 #Webstorm config and setup
 .idea
+
+# Mac
+.DS_Store
+
+# Emacs
+*~
+
+# Any Public Key
+*.pub
 
