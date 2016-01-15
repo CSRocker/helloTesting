@@ -5,12 +5,83 @@
     <meta charset ="utf-8">
     <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
     <meta name="author" content="Clara Chen">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
     <title>Hello Testing</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <!-- core CSS -->
+      <link href="../public/css/bootstrap.min.css" rel="stylesheet">
+      <link href="../public/css/font-awesome.min.css" rel="stylesheet">
+      <link href="../public/css/animate.min.css" rel="stylesheet">
+      <link href="../public/css/prettyPhoto.css" rel="stylesheet">
+      <link href="../public/css/main.css" rel="stylesheet">
+      <link href="../public/css/responsive.css" rel="stylesheet">
+
+    <!--[if it IE 9]>
+      <script src="..public/js/controllers_others/html5shiv.js"></script>
+      <script src="..public/js/controllers_others/respond.min.js"></script>
+    <![endif]-->
+
   </head>
-  <body>
+  <body class="homepage">
+    <header id="header">
+        <div class="top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-xs-4">
+                        <div class="top-number"><p><i class="fa fa-phone-square"></i>
+                        +014150000000</p></div>
+                    </div>
+                    <div class="col-sm-6 col-xs-8">
+                        <div class="mainmenu pull-right">
+                            <ul class="nav navbar-nav collapase navbar-collapse">Login</ul>
+                            <ul class="nav navbar-nav collapase navbar-collapse">Register</ul>
+                            <div class="social pull-right">
+                                <ul class="social-share">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-dribble"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div><!--/.container-->
+        </div><!--/.top-bar -->
+
+        <nav class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapase">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="../public/images/logo.png" alt="logo"></a>
+                </div>
+
+                <div class="search">
+                    <form role="form">
+                        <input type="text" class="search-form" autocomplete="off" placeholder="Search">
+                        <i class="fa fa-search"></i>
+                    </form>
+                </div>
+
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
     <h1>Hello Testing</h1>
     <p>Welcome to Hello Testing</p>
     <p>Hello Testing Site is under construction. </p>
@@ -19,10 +90,20 @@
     <!-- /#wrapper -->
 
     <!-- Modules -->
-    <script src="js/angularApp.js"></script>
 
     <!-- Controllers -->
-    <script src="javascripts/controllers/MainControllers.js"></script>
+    <!-- Javascript files loading **START** -->
+    <script src="../public/js/controllers_others/bootstrap.min.js"></script>
+    <script src="../public/js/controllers_others/jquery.prettyPhoto.js"></script>
+    <script src="../public/js/controllers_others/jquery.isotope.min.js"></script>
+    <script src="../public/js/controllers_others/main.js"></script>
+    <script src="../public/js/controllers_others/wow.min.js"></script>
+    <!-- FORM VALIDATION ENGINE -->
+
+    <!-- JQuery -->
+    <script src="../public/js/controllers_others/jquery.js"></script>
+    <!-- Javascript Files loading **END** -->
+
   </body>
 </html>
 
